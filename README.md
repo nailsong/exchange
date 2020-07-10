@@ -1,24 +1,31 @@
-# README
+# Money for you
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Money for you is a app for exchange, currency conversion.
 
-Things you may want to cover:
+This app will convert a value to any currency including bitcoin.
 
-* Ruby version
+## Ruby version
 
-* System dependencies
+* Ruby 2.6.5
 
-* Configuration
+## System dependencies
 
-* Database creation
+* PostgreSQL
 
-* Database initialization
+In development environment:
 
-* How to run the test suite
+* Docker (19.03.12)
+* Docker compose (1.26.0)
 
-* Services (job queues, cache servers, search engines, etc.)
+## Run app with docker compose
+```bash
+docker-compose up
+```
 
-* Deployment instructions
+## How to run the test suite
+```bash
+docker-compose run --rm app bundle exec rspec
+```
 
-* ...
+## Deployment instructions
+
