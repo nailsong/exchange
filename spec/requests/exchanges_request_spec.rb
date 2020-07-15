@@ -20,5 +20,16 @@ RSpec.describe 'Exchanges', type: :request do
 
       expect(response).to have_http_status(200)
     end
+
+    it "returns a numeric value" do
+      get '/convert', params: {
+        source_currency: 'USD',
+        target_currency: 'BRL',
+        amount: rand(1..9999)
+      }
+
+      value = JSON.parse(response.body)['value']
+      expect(value.is_a? Numeric).to eql(true)
+    end
   end
 end

@@ -1,7 +1,7 @@
 {
   "engines" : {
     "node" : ">=12"
-   },
+  },
   "name": "exchange",
   "private": true,
   "dependencies": {
@@ -17,3 +17,4 @@
     "webpack-dev-server": "^3.11.0"
   }
 }
+ 
