@@ -1,10 +1,8 @@
 # Exchange
 
-**Exchange ** is a small Ruby on Rails project for currency conversion.
+**Exchange** is a small Ruby on Rails project for currency conversion.
 
 In it you simply choose the amount and currencies you want to convert, so the conversion is performed instantly.
-
-Demo: [https://mfy-exchange.herokuapp.com](https://mfy-exchange.herokuapp.com)
 
 ## Ruby version:
 
