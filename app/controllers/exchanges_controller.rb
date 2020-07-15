@@ -10,6 +10,6 @@ class ExchangesController < ApplicationController
       params[:amount]
     ).call
 
-    render json: { "value": value }
+    render json: { 'value': value }
   end
 end
